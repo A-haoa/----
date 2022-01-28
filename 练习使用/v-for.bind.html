@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>v-for</title>
+</head>
+<body>
+    <div id='app'>
+        <input type="button" value="点击增加" @click='add'>
+        <input type="button" value="点击减少" @click='sub'>
+             <ul>
+        <li v-for='(item,index) in arr' v-bind:title='item'>
+             {{index+1}} 菜菜喜欢吃的是{{item}}
+        </li>
+     </ul>
+         <h1 v-for='item in arr' v-bind:title='item'></h1>
+    </div>
+    <!-- 开发环境版本，包含了有帮助的命令行警告 -->
+<script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+     <script>
+         var app=new Vue({
+             el:'#app',
+             data:{
+                 index:4,
+                 arr:['北京烤鸭','河南烩面','山西刀削面','陕西肉夹馍']
+                },
+             methods:{
+                 add:function(){
+                     this.index++;
+                     if(this.index<10){
+                        this.arr.push('臭豆腐');
+                     }else{
+                         alert('太多了 不要再吃了！');
+                     }
+                    
+
+                 },
+                 sub:function(){
+                     this.index--;
+                     if(this.index>4){this.arr.shift();}
+                     else{
+                         alert('我就吃这5个菜！难道算多吗？');
+                     }
+                     
+
+                 },
+             },
+         })
+     </script>
+</body>
+</html>
