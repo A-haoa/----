@@ -1,0 +1,212 @@
+.main {
+    /* height: 100%; */
+    background: #f5f5f5;
+}
+
+.content {
+    position: relative;
+    width: 1226px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.content h3 {
+    font-size: 25px;
+}
+
+.content .btn1 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 70px;
+    height: 25px;
+    margin: 8px 0;
+    /* background-color: red; */
+}
+
+.content .btn1 span {
+    font-family: 'icomoon';
+    text-align: center;
+    float: left;
+    width: 35px;
+    height: 25px;
+    line-height: 25px;
+    font-size: 18px;
+    border: 1px solid #eee;
+}
+
+.content .btn1 span:hover {
+    color: #ff6700;
+}
+/*选购列表*/
+
+.limit-shop {
+    display: inline-block;
+    width: 100%;
+    height: 340px;
+    margin-top: 5px;
+}
+
+.limit-shop img {
+    width: 235px;
+    height: 340px;
+}
+
+.limit-shop .shanggou {
+    float: left;
+}
+
+.limit-shop .shangpin ul li {
+    float: left;
+    padding: 0 6px;
+}
+
+.banner-box {
+    margin-top: 20px;
+}
+
+.banner-box img {
+    width: 100%;
+}
+/*选购列表结束-----------*/
+/* 商品类表 */
+/*商品列表*/
+
+.sp .box-hd {
+    height: 58px;
+    padding: 20px 0;
+}
+
+.sp .box-hd .title {
+    float: left;
+    font-weight: 400;
+    font-size: 25px;
+}
+
+.sp .box-hd .more {
+    float: right;
+    font-size: 18px;
+}
+
+.sp .box-hd .more a {
+    color: black;
+}
+
+.sp .box-hd .more a:hover {
+    color: #ff6700;
+    transition: all 0.5s;
+}
+
+.iconfont-arrow-right-big::before {
+    font-family: 'icomoon';
+    content: "\e902";
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    line-height: 20px;
+    text-align: center;
+    background-color: gray;
+    color: #fff;
+    margin-left: 8px;
+    transition: all 0.4s;
+}
+
+.sp .box-hd .more :hover .iconfont-arrow-right-big:before {
+    background-color: #ff6700;
+}
+
+.sp .box-bd {
+    height: 625px;
+}
+
+.sp .box-bd .sp-show {
+    float: left;
+    padding-top: 10px;
+    width: 234px;
+}
+
+.sp .box-bd .sp-show img {
+    width: 100%;
+}
+
+.sp .box-bd .sp-goos ul li {
+    float: left;
+    width: 234px;
+    height: 300px;
+    background: #fff;
+    margin: 8px 7px;
+    text-align: center;
+    transition: all 1s;
+}
+
+.sp .box-bd .sp-goos ul li img {
+    width: 160px;
+    height: 160px;
+}
+
+.sp .box-bd .sp-goos h3 {
+    color: #000;
+    padding: 20px 0 0 0;
+}
+
+.sp .box-bd .sp-goos .desc {
+    color: gray;
+}
+
+.sp .box-bd .sp-goos .price {
+    margin-top: 15px;
+    color: #ff6633;
+}
+
+.sp .box-bd .sp-goos ul li:hover {
+    /*上移，变大*/
+    transform: translateY(2px) scale(1, 1);
+    /*阴影*/
+    box-shadow: 0 10px 30px -5px rgba(0, 0, 0, 0.7);
+}
+/* 商品类表结束-------------- */
+/*---------------------------------jiadian*/
+
+.jiadian .box-hd .more ul li {
+    float: left;
+}
+
+.jiadian .box-hd .more ul li a {
+    padding: 0 10px;
+}
+
+.jiadian .box-hd .more ul li a:hover {
+    color: #ff6633;
+    border-bottom: 2px solid #ff6633;
+}
+
+.jiadian .box-bd {
+    height: 628px;
+}
+
+.sp .box-bd .jia-show ul li {
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.sp .box-bd .jia-show {
+    float: left;
+    width: 234px;
+    margin-bottom: 10px;
+}
+
+.sp .box-bd .jia-show img {
+    width: 100%;
+}
+
+.sp .box-bd .jia-goos ul li {
+    float: left;
+    margin: 10px 0 4px 15px;
+}
+
+.sp .box-bd .jia-goos ul li img {
+    width: 233px;
+    height: 300px;
+}
+/*---------------------------------jiadian*/

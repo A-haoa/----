@@ -1,0 +1,340 @@
+/* 内容样式 */
+
+@font-face {
+    font-family: 'icomoon';
+    src: url('../fonts/icomoon.eot?3gaw45');
+    src: url('../fonts/icomoon.eot?3gaw45#iefix') format('embedded-opentype'), url('../fonts/icomoon.ttf?3gaw45') format('truetype'), url('../fonts/icomoon.woff?3gaw45') format('woff'), url('../fonts/icomoon.svg?3gaw45#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+.w {
+    width: 1226px;
+    margin: 0 auto;
+}
+
+
+/*导航栏*/
+
+.topBar {
+    height: 40px;
+    line-height: 40px;
+    background: #333;
+}
+
+
+/* 左边 */
+
+.topBar-left {
+    /* background-color: skyblue; */
+    height: 40px;
+    float: left;
+    text-align: center;
+}
+
+.topBar-left a {
+    font-size: 14px;
+    font-weight: 400px;
+    color: #b0b0b0;
+    padding: 0 5px;
+    text-decoration: none;
+}
+
+.topBar-left a:hover {
+    color: #fff;
+}
+
+
+/* 左边结束----------- */
+
+
+/* 右边 */
+
+.topBar .topBar-right {
+    /* background-color: skyblue; */
+    float: right;
+    position: relative;
+}
+
+.topBar .topBar-right ul li {
+    float: left;
+}
+
+.topBar .topBar-right ul li a {
+    padding: 0 8px;
+    color: #b0b0b0;
+}
+
+.topBar .topBar-right ul li a:hover {
+    color: #fff;
+}
+
+
+/* 右边结束--------------------- */
+
+
+/* 购物车 */
+
+.topBar .topBar-right .sp-cart {
+    display: inline-block;
+    width: 120px;
+    color: #b0b0b0;
+    height: 40px;
+    text-align: center;
+    background-color: #424242;
+    margin-left: 10px;
+}
+
+.topBar .topBar-right .sp-cart::before {
+    font-family: 'icomoon';
+    content: "\e93a";
+    margin-right: 5px;
+}
+
+.topBar .topBar-right ul li .sp-cart:hover {
+    /* overflow: visible; */
+    color: #ff6700;
+    background-color: #fff;
+    /* display: block; */
+}
+
+.topbar-cart-menu {
+    width: 316px;
+    /*相对于.topBar-right进行布局*/
+    position: absolute;
+    top: 40px;
+    right: 0;
+    /*显示的等级*/
+    z-index: 10;
+}
+
+.topbar-cart-txt {
+    /*height: 100px；*/
+    background-color: #fff;
+    text-align: center;
+    line-height: 100px;
+    box-shadow: 0 3px 5px -3px rgba(0, 0, 0, 0.7);
+    /*没有高度，作为清浮动操作*/
+    /*存在高度，overflow只隐藏超出高度*/
+    height: 0;
+    overflow: hidden;
+    /*设置过渡动画*/
+    transition: .4s;
+}
+
+.topBar .topBar-right ul li:hover .topbar-cart-menu .topbar-cart-txt {
+    overflow: visible;
+    /* display: block; */
+    height: 100px;
+}
+
+.topbar-cart-menu .topbar-cart-txt :hover .topBar .topBar-right ul li .sp-cart {
+    color: #ff6700;
+    background-color: #fff;
+}
+
+
+/* 购物车结束------------------------- */
+
+
+/*导航栏结束---------------------------*/
+
+
+/* 头部模块 */
+
+.header {
+    width: 100%;
+    height: 110px;
+    /* background-color: pink; */
+}
+
+.container2 {
+    /* background-color: skyblue; */
+    width: 1226px;
+    height: 110px;
+    margin: 0 auto;
+}
+
+
+/*--logo--*/
+
+.logo {
+    background-color: slateblue;
+    margin-top: 20px;
+    margin-right: 24px;
+    width: 55px;
+    height: 55px;
+    float: left;
+}
+
+.logo a {
+    display: block;
+    width: 171px;
+    height: 61px;
+    background: url(../img/mi-logo.png) no-repeat;
+    /* 文字隐藏 */
+    font-size: 0;
+}
+
+
+/*--logo结束--*/
+
+
+/* 导航菜单栏 */
+
+.nav {
+    height: 110px;
+    float: left;
+    margin-left: 100px;
+    /* background-color: red; */
+}
+
+.nav ul li {
+    float: left;
+}
+
+.nav ul li a {
+    padding: 0 14px;
+    font-size: 16px;
+    color: #000;
+    text-align: center;
+    line-height: 100px;
+}
+
+.nav ul li a:hover {
+    color: #ff6700;
+}
+
+
+/* 导航菜单栏结束--------- */
+
+
+/*搜索部分*/
+
+.search {
+    margin-top: 25px;
+    width: 300px;
+    height: 50px;
+    float: right;
+    border: 1px solid #dedede;
+    /* background-color: blue; */
+}
+
+.search #s1 {
+    width: 240px;
+    height: 48px;
+    /* text-align: right; */
+    font-weight: border;
+    padding: 0 10px;
+    outline: none;
+}
+
+.search #s2 {
+    width: 58px;
+    height: 50px;
+    float: right;
+    border: 0;
+    cursor: pointer;
+    font-family: 'icomoon';
+    content: "\e986";
+    border: 1px solid #dedede;
+    font-size: 17px;
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.search #s2:hover {
+    background-color: #ff6700;
+    color: #fff;
+}
+
+
+/* 头部模块结束---------------------------- */
+
+
+/*选购*/
+
+.shop {
+    width: 1226px;
+    height: 170px;
+    margin: 0 auto 30px;
+    margin-top: 20px;
+    /* background-color: pink; */
+}
+
+
+/*选购导航*/
+
+.channel {
+    width: 225px;
+    height: 170px;
+    float: left;
+    background-color: #5f5750;
+    text-align: center;
+}
+
+.channel ul li {
+    float: left;
+    width: 75px;
+    height: 85px;
+    padding: 20px 5px;
+    /* background-color: red; */
+    border: 0.1px solid;
+    border-color: rgba(255, 255, 255, 0.1);
+}
+
+.channel ul li img {
+    position: relative;
+    top: -10px;
+    left: 18px;
+    display: block;
+    width: 24px;
+    height: 24px;
+}
+
+.channel ul li a {
+    color: #dedede;
+    font-weight: 700;
+}
+
+.channel ul li :hover {
+    transition: all .5s;
+    color: #fff;
+}
+
+
+/*选购导航结束*/
+
+
+/*选购商品 */
+
+.advertise {
+    float: right;
+    width: 999px;
+    height: 170px;
+}
+
+.advertise ul li {
+    width: 316px;
+    height: 170px;
+    float: right;
+    margin-left: 14px;
+}
+
+.advertise ul li a {
+    width: 316px;
+    height: 170px;
+}
+
+.advertise ul li a:hover {
+    /*上移，变大*/
+    transform: translateY(-2px) scale(4.02);
+    /*阴影*/
+    box-shadow: 0 10px 30px -5px rgba(0, 0, 0, 0.7);
+}
+
+
+/*选购商品结束------------- */
+
+
+/*选购结束--------------------*/

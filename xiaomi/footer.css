@@ -1,0 +1,176 @@
+/*footer*/
+
+.footer {
+    width: 100%;
+    background-color: #fff;
+}
+
+
+/*--------------------------------weixiu*/
+
+.weixiu {
+    height: 79px;
+    border-bottom: 1px solid #E0E0E0;
+}
+
+.weixiu li {
+    float: left;
+    height: 79px;
+    line-height: 79px;
+    font-size: 16px;
+}
+
+.weixiu a {
+    float: left;
+    padding: 0 70px;
+    color: #616161;
+}
+
+.seu {
+    float: left;
+    color: #E0E0E0;
+}
+
+.weixiu a:hover {
+    color: #ff6700;
+}
+
+
+/*------------------------------------------*/
+
+
+/*----------------------------------------fuwu*/
+
+.fuwu {
+    height: 192px;
+}
+
+.fu-le {
+    float: left;
+    height: 192px;
+    width: 974px;
+}
+
+.fu-le dl {
+    float: left;
+    font-size: 12px;
+}
+
+.fu-le dt {
+    padding: 42px 104px 32px 0;
+}
+
+.fu-le dt a {
+    color: #424242;
+}
+
+.fu-le dd {
+    padding-bottom: 16px;
+}
+
+.fu-le dd a {
+    color: #757575;
+}
+
+.fu-le a:hover {
+    color: #ff6700;
+}
+
+.fu-ri {
+    text-align: center;
+}
+
+.fu-ri h4 {
+    padding: 42px 0 14px 0;
+    font-size: 18px;
+    color: #ff6700;
+    font-weight: 400;
+}
+
+.fu-ri p {
+    margin-bottom: 6px;
+    font-size: 12px;
+    color: #757575;
+}
+
+.fu-ri a {
+    display: inline-block;
+    margin-top: 20px;
+    height: 28px;
+    line-height: 28px;
+    width: 118px;
+    font-size: 14px;
+    color: #ff6700;
+    border: 1px solid #ff6700;
+}
+
+.fu-ri a:hover {
+    background-color: #ff6700;
+    color: #fff;
+}
+
+
+/*------------------------------------------------*/
+
+
+/*------------------------------------------------copyright*/
+
+.copyright {
+    height: 55px;
+    padding: 40px 10px 0 0;
+}
+
+.logo {
+    float: left;
+    width: 55px;
+    height: 65px;
+    background: url("../img/mi-logo.png") no-repeat 0 0;
+}
+
+.co-nav {
+    float: left;
+    padding-left: 10px;
+    width: 688px;
+    height: 55px;
+}
+
+.co-nav a,
+.co-nav span,
+.co-nav p {
+    font-size: 12px;
+}
+
+.co-nav a,
+.co-nav span {
+    color: #757575;
+}
+
+.co-nav p {
+    color: #B0B0B0;
+}
+
+.co-img {
+    height: 55px;
+    width: 538px;
+}
+
+.co-img img {
+    width: 83px;
+    height: 28px;
+}
+
+
+/*-----------------------------------------------*/
+
+.xiaomi {
+    text-align: center;
+    height: 80px;
+    line-height: 80px;
+}
+
+.xiaomi h4 {
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "楷体";
+    color: #BEBEBE;
+}
